@@ -7,7 +7,7 @@ const API_KEY = process.env.TMDB_API_KEY
 
 router.get('/', (req, res) => {
     res.render('index.html')
-})
+});
 
 router.get("/movies", (req, res) => {
     console.log('route');
